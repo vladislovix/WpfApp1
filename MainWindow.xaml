@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid HorizontalAlignment="Center" Width="400">
+        <Label Content="Welcome" HorizontalAlignment="Left" Margin="168,123,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonlogin" Content="Авторизаия" HorizontalAlignment="Left" Margin="133,287,0,0" VerticalAlignment="Top" Width="144" Click="clickautoriz"/>
+        <Button x:Name="guest" Content="Войти как гость" HorizontalAlignment="Left" Margin="133,339,0,0" VerticalAlignment="Top" Width="144" Click="clickguest"/>
+        <TextBox x:Name="txtlogin" HorizontalAlignment="Left" Margin="137,194,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtpass" HorizontalAlignment="Left" Margin="137,234,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="120"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="360,194,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Center" Height="50" Margin="0,58,0,0" VerticalAlignment="Top" Width="50" Source="/free-icon-protection-2579113.png"/>
+
+    </Grid>
+</Window>
